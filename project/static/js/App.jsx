@@ -1,7 +1,22 @@
 import React from "react";
+import Hello from "./Hello";
+import { PageHeader } from "react-bootstrap";
+
+require('../css/app.css');
+var $ = require('jquery');
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render () {
-    return <p> Hello React!</p>;
+    return (
+      <PageHeader>
+        <div className='header-contents'>
+          <Hello name='Rimini' />
+        </div>
+      </PageHeader>
+    );
   }
 }
