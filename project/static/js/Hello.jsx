@@ -12,7 +12,7 @@ export default class Hello extends React.Component {
   }
 
   personaliseGreeting(greeting) {
-    this.setState( {greeting: greeting + ' ' + this.props.name + '!'});
+    this.setState({greeting: greeting + ' ' + this.props.name + '!'});
   }
 
   getPythonHello() {
