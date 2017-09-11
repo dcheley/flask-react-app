@@ -11,3 +11,7 @@
   font-weight: 300;
   color: white;
 }
+
+.btn-danger {
+  border-color: white;
+}
