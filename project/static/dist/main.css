@@ -1,0 +1,13 @@
+.page-header {
+  background-image: url(5bd5c3450b8901e8744826c9f86b473e.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.header-contents h1 {
+  font-size: 120px;
+  font-weight: 300;
+  color: white;
+}
