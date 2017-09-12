@@ -22,7 +22,7 @@ export default class App extends React.Component {
       <PageHeader>
         <div className='header-contents'>
           {this.addHeaderImg()}
-          <Hello name='Rimini' />
+          <Hello name='Visitor' />
         </div>
       </PageHeader>
     );

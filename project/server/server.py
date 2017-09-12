@@ -12,8 +12,8 @@ def hello():
     return get_hello()
 
 def get_hello():
-    greeting_list = ['Ciao', 'Hei', 'Salut', 'Hola', 'Hallo', 'Hej', 'Ni Hao']
+    greeting_list = ['Bonjour', 'Ciao', 'Hei', 'สวัสดี', 'Salut', 'Hola', 'Hallo', 'Hej', '你好', 'Yoo', 'こんにちは', '안녕하세요']
     return random.choice(greeting_list)
-    
+
 if __name__ == "__main__":
     app.run()
