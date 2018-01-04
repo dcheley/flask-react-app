@@ -30,14 +30,16 @@ python server.py
 
 ## Frontend
 
-5) Install packages within 'static' directory
+1) Install packages within 'static' directory
 
 ```
 npm install
 ```
 
-6) Build Webpack dependencies
+2) Build Webpack dependencies
 
 ```
 npm run build
 ```
+
+3) Open http://localhost:5000/
